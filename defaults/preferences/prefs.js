@@ -1,0 +1,2 @@
+pref("extensions.storyDL.overhead", "<html>\n  <body>\n    <h1>Table of Contents</h1>\n    <p style=\"text-indent:0pt\">\n%chapters%\n    </p>\n  </body>\n</html>");
+pref("extensions.storyDL.overheadOnSingle", false);

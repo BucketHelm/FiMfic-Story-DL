@@ -1,0 +1,8 @@
+content     storyDL    chrome/content/
+content     storyDL    chrome/content/ contentaccessible=yes
+overlay chrome://browser/content/browser.xul chrome://storyDL/content/browser.xul
+
+locale	storyDL	en-US	locale/en-US/
+
+skin	storyDL	classic/1.0	skin/
+style	chrome://global/content/customizeToolbar.xul	chrome://storyDL/skin/skin.css

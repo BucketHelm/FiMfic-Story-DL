@@ -1,0 +1,39 @@
+<?xml version="1.0"?>
+<?xml-stylesheet href="chrome://global/skin/" type="text/css"?>
+ 
+<prefwindow 
+     title="Story DL Preferences"
+     xmlns="http://www.mozilla.org/keymaster/gatekeeper/there.is.only.xul">
+ 
+	<prefpane label="Story DL Preferences">
+		<preferences>
+			<preference id="story-DL-overhead" name="extensions.storyDL.overhead" type="string"/>
+			<preference id="story-DL-overheadOnSingle" name="extensions.storyDL.overheadOnSingle" type="bool"/>
+		</preferences>
+		
+		<groupbox>
+			<caption label="Settings"/>
+			<grid>
+				<columns>
+					<column flex="4"/>
+					<column flex="1"/>
+				</columns>
+				<rows>
+					<row>
+						<label control="overheadOnSingle" value="Use overhead on single chapter stories"/>
+						<checkbox id="overheadOnSingle" preference="story-DL-overheadOnSingle"/>
+					</row>
+					<row>
+						<label control="dlOverhead" value="HTML overhead: \n(%chapters% lists links to all chapters)"/>
+					</row>
+					<row>
+						<textbox id="dlOverhead" multiline="true" rows="8" cols="50" preference="story-DL-overhead"/>
+					</row>
+					
+				</rows>
+			</grid>
+		</groupbox>	
+		
+	</prefpane>
+ 
+</prefwindow>
