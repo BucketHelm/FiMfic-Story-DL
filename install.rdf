@@ -12,7 +12,7 @@
 		
 	Uses Eli Grey's library FileSaver.js (https://github.com/eligrey/FileSaver.js) under MIT/X11 license.
 	Full information in LICENSE.md when unzipping the .xpi file!</em:description>
-		<em:homepageURL>http://www.fimfiction.net/user/BucketHelm</em:homepageURL>
+		<em:homepageURL>https://github.com/BucketHelm/FiMfic-Story-DL</em:homepageURL>
 		<em:optionsURL>chrome://storyDL/content/options.xul</em:optionsURL>
 
 		<em:targetApplication>
